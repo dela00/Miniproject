@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luas Persegi</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Luas Persegi</h1>
+    </header>
+    <p>
+        <img class="tengah" src="gambar/persegi.jpg" />
+    </p>
+    <p>Rumus Luas Persegi yaitu :</p>
+    <center ><h4>L = S x S</h4></center>
+    <p>Di mana :</p>
+    <p>L = Luas</p>
+    <p>S = Sisi</p>
+    <br>
+    <hr />
+    <br>
+    <section class="inputLuasSection">
+        <center><h1>Hitung Luas Persegi</h1></center>
+        <form>
+            <p><input type="text" id="sisi" placeholder="Masukan sisi"> </p>
+            <p>L = S x S</p>
+            <p>Luas : <input type="text" id="luas" ></p>
+        </form>
+    </section>
+    <section class="inputButtonSection">
+        <button onclick="hitungLuasPersegi();">Hitung</button>
+        <p>
+            <form id="resetData">
+                <button class="kanan" onclick="reset()">Reset</button>
+            </form>
+        </p>
+    </section>
+    <script src="js/script.js"></script>
+    
+</body>
+</html>

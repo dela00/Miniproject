@@ -1,0 +1,92 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+img.tengah {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+}
+
+header {
+    background-color: #191D88;
+    color: whitesmoke;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 2px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 16px;
+    border-radius: 4px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #1458A3;
+    color: white;
+    margin-bottom: 120px;
+    margin-left: 600px;
+}
+
+button:hover {
+    background-color: #ebb028;
+    color: #191D88;
+}
+
+button:active {
+    transform: translateY(6px);
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #191D88;
+    border-radius: 4px;
+    outline: none;
+    padding-right: 80%;
+}
+
+input:focus {
+    border-color: #191D88;
+}
+
+.luasInputSection {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+}
+
+.inputButtonSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 8px;
+    
+}
+
+button.kanan {
+    padding: 10px 16px;
+    border-radius: 4px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #FFC436;
+    color: white;
+    float: right;
+    margin-bottom: 30px;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+
+button.kanan:hover {
+    background-color: #191D88;
+    color: #FFC436;
+}
